@@ -3,7 +3,8 @@
     "description": "this my test",
     "type": "libraay",
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "license": "Apache-2.0",
     "autoload": {
@@ -17,5 +18,18 @@
             "email": "longzhiyongdxfncel@163.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true
+        }
+    },
+    "extra": {
+        "installer-types": ["libraay"],
+        "installer-paths": {
+            "web/package/longzy": ["longzy/test"],
+            "web/helloWord/{$name}/": ["type:libraay"]
+        }
+    }
 }
