@@ -1,15 +1,14 @@
 {
-    "name": "longz/test",
-    "description": "this is test",
-    "type": "library",
-    "minimum-stability": "stable",
+    "name": "longzy/test",
+    "description": "this my test",
+    "type": "libraay",
     "require": {
         "php": ">=5.4"
     },
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Longz": "src/"
+            "longzy\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +16,6 @@
             "name": "longzy",
             "email": "longzhiyongdxfncel@163.com"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
