@@ -1,7 +1,7 @@
 {
     "name": "longzy/test",
     "description": "this my test",
-    "type": "libraay",
+    "type": "library",
     "require": {
         "php": ">=5.4",
         "oomphinc/composer-installers-extender": "^2.0",
@@ -28,7 +28,7 @@
     },
     "extra": {
         "installer-paths": {
-            "your/custom/path/{$name}/": ["longzy/test"]
+            "web/": ["longzy/test"]
         }
     }
 }
