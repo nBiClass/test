@@ -4,7 +4,8 @@
     "type": "libraay",
     "require": {
         "php": ">=5.4",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "oomphinc/composer-installers-extender": "^2.0",
+        "composer/installers": "^2.0"
     },
     "license": "Apache-2.0",
     "autoload": {
@@ -26,10 +27,8 @@
         }
     },
     "extra": {
-        "installer-types": ["libraay"],
         "installer-paths": {
-            "web/package/longzy": ["longzy/test"],
-            "web/helloWord/{$name}/": ["type:libraay"]
+            "your/custom/path/{$name}/": ["longzy/library"]
         }
     }
 }
