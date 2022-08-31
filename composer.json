@@ -1,7 +1,7 @@
 {
     "name": "longzy/test",
     "description": "this my test",
-    "type": "library",
+    "type": "wordpress-theme",
     "require": {
         "composer/installers": "^2.0"
     },
