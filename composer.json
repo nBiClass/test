@@ -2,7 +2,7 @@
   "name": "longzy/test",
   "description": "this my test",
   "license": "Apache-2.0",
-  "type": "cakephp-plugin",
+  "type": "project",
   "minimum-stability": "stable",
   "require": {
     "composer/installers": "^2.0"
