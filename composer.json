@@ -13,14 +13,6 @@
       "email": "longzhiyongdxfncel@163.com"
     }
   ],
-  "extra": {
-    "installer-paths": {
-      "example.com/static/{$name}": [
-        "longzy/test",
-        "longzy/library"
-      ]
-    }
-  },
   "config": {
     "allow-plugins": {
       "composer/installers": true
