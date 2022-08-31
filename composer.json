@@ -1,21 +1,23 @@
 {
-  "name": "longzy/test",
-  "description": "this my test",
-  "license": "Apache-2.0",
-  "type": "cakephp-plugin",
-  "minimum-stability": "stable",
-  "require": {
-    "composer/installers": "^2.0"
-  },
-  "authors": [
-    {
-      "name": "longzy",
-      "email": "longzhiyongdxfncel@163.com"
-    }
-  ],
-  "config": {
-    "allow-plugins": {
-      "composer/installers": true
-    }
-  }
+    "name": "longzy/helper",
+    "description": "this is php function",
+    "type": "library",
+    "require": {
+        "ext-curl": "*",
+        "php": ">=7.2",
+        "topthink/think-helper": "^3.1"
+    },
+    "license": "apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "longzy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "longzy",
+            "email": "longzhiyongdxfncel@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
