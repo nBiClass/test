@@ -1,32 +1,28 @@
 {
-    "name": "longzy/test",
-    "description": "this my test",
-    "type": "wordpress-theme",
-    "require": {
-        "composer/installers": "^2.0"
-    },
-    "license": "Apache-2.0",
-    "autoload": {
-        "psr-4": {
-            "longzy\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "longzy",
-            "email": "longzhiyongdxfncel@163.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "oomphinc/composer-installers-extender": true
-        }
-    },
-    "extra": {
-        "installer-paths": {
-            "web/": ["longzy/test"]
-        }
+  "name": "longzy/test",
+  "description": "this my test",
+  "license": "Apache-2.0",
+  "type": "longzy-theme",
+  "minimum-stability": "stable",
+  "require": {
+    "composer/installers": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "longzy",
+      "email": "longzhiyongdxfncel@163.com"
     }
+  ],
+  "extra": {
+    "installer-paths": {
+      "sites/example.com/modules/{$name}": [
+        "vendor/package"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
 }
