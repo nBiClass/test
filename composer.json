@@ -2,7 +2,7 @@
   "name": "longzy/test",
   "description": "this my test",
   "license": "Apache-2.0",
-  "type": "longzy-theme",
+  "type": "cakephp-plugin",
   "minimum-stability": "stable",
   "require": {
     "composer/installers": "^2.0"
@@ -15,8 +15,9 @@
   ],
   "extra": {
     "installer-paths": {
-      "sites/example.com/modules/{$name}": [
-        "vendor/package"
+      "example.com/static/{$name}": [
+        "longzy/test",
+        "longzy/library"
       ]
     }
   },
